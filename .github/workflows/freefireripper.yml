@@ -14,6 +14,13 @@ on:
           - FreeFireRipper Basic
           - FreeFireRipper Pro
           - FreeFireRipper Advanced
+      ffserver:
+        description: Choose Your Free Fire Server ( Only For Pro and Advanced )
+        type: choice
+        options:
+          - India
+          - Others ( Contact Me to Enlist )
+          
 jobs:
   FFRipper:
     name: ${{ inputs.version }}
