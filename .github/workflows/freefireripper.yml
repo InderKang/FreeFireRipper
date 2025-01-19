@@ -11,9 +11,9 @@ on:
         description: Choose the Ripper Version
         type: choice
         options:
-          - FreeFireRipper Basic
-          - FreeFireRipper Pro
-          - FreeFireRipper Advanced
+          - FreeFireRipper-Basic
+          - FreeFireRipper-Pro
+          - FreeFireRipper-Advanced
       ffserver:
         description: Choose Your Free Fire Server ( Only For Pro and Advanced )
         type: choice
