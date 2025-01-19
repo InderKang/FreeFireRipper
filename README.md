@@ -23,7 +23,7 @@
 4. A little bit unstable as compared to Free Fire Ripper Basic
 5. After OB Update takes a bit longer time to update than Standard Free Fire Ripper Basic
 
-# FreeFireRipper Pro (Coming Soon)
+# FreeFireRipper Advanced (Coming Soon)
 # ➡️ Features (Adv+DisAdv)
 1. All Features ( Basic+Pro )
 2. Implemented Screen Recognition and Simulations For Automate 3D Model Ripping
