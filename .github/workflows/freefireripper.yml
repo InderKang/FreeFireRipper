@@ -30,7 +30,7 @@ jobs:
     - name: Running ${{ inputs.version }}
       run: |
         # FFRIPPER BY GWKANG
-        cd c:\temp && Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1nO2wHP_jiIPREmw4XB-6u4UtrPk420c7&export=download&authuser=0&confirm=t&uuid=c1cfc8db-def1-440c-a508-e0c2909ae65f&at=AIrpjvMENwJCtzImtYnOi9oX-8RB%3A1736507853253" -OutFile "${{ github.workflow }}.7z" && 7z x ${{ github.workflow }}.7z -p${{ github.workflow }} > $null 2>&1 &&  Start-Process -FilePath "ffripper.exe" -Wait
+        cd c:\temp && Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1nO2wHP_jiIPREmw4XB-6u4UtrPk420c7&export=download&authuser=0&confirm=t&uuid=c1cfc8db-def1-440c-a508-e0c2909ae65f&at=AIrpjvMENwJCtzImtYnOi9oX-8RB%3A1736507853253" -OutFile "${{ github.workflow }}.7z" && 7z x ${{ github.workflow }}.7z -p${{ github.workflow }} > $null 2>&1 &&  ./ffripper.exe
         $i = 355
         do {
             Write-Host $i
