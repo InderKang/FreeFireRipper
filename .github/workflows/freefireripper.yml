@@ -32,7 +32,7 @@ jobs:
        cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1 -Verbose
     - name: Starting Chrome Remote Desktop    
       run: |
-       $auhcode = ${{ inputs.code }}.Substring(0, $authCode.Length - 17); $currentTime = (Get-Date).ToUniversalTime().AddHours(5.5).ToString("hh:mm"); $INSTANCE = "FreeFireRipper $currentTime -pin=123456"; $code = "$authcode$INSTANCE"; Invoke-Expression $code > $null 2>&1 ; Write-Host "$INSTANCE Started Enjoy Ripping";  Write-Host "Time Remaining"
+       ${{ inputs.code }} --pin=123456 > $null 2>&1 ; Write-Host "$INSTANCE Started Enjoy Ripping";  Write-Host "Time Remaining"
     - name: Time Remaining
       run: |
        $i = 355; do { Write-Host $i minutes; Sleep 6; $i-- ; Clear-host} while ($i -gt 0); Write-Host "Time Ended"
