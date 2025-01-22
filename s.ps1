@@ -62,6 +62,7 @@ $BASICCMD = {
    New-Object -ComObject WScript.Shell | %{ $_.CreateShortcut("C:\Users\$Env:USERNAME\Documents\GWKANG.lnk") } | %{ $_.TargetPath = "C:\Users\$Env:USERNAME\Desktop\GWKANG"; $_.Save() } > $null 2>&1
    New-Item -Path $MYFOLDER -ItemType Directory > $null 2>&1; Start-Process $NINJARIPPER; New-Item -ItemType SymbolicLink -Target $NINJARIPPER -Path $LNKNINJARIPPER > $null 2>&1; New-Item -ItemType SymbolicLink -Target $NOESIS -Path $LNKNOESIS > $null 2>&1; New-Item -ItemType SymbolicLink -Target $SMARTGAGA -Path $LNKSMARTGAGA > $null 2>&1
    Write-Output "Setting Up Resources Done"
+   Add-Content -Path $env:GITHUB_ENV -Value "code=$crdcode"
 }
 
 $PROCMD = {
