@@ -1,5 +1,4 @@
 # Owner of the Script Inderkang
-Import-Module Microsoft.PowerShell.Security
 
 $INTRO = @"
                                                                
