@@ -28,7 +28,7 @@ jobs:
 
     steps:
     - name: Running ${{ inputs.version }}
-      run: cd c:\temp && Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1nO2wHP_jiIPREmw4XB-6u4UtrPk420c7&export=download&authuser=0&confirm=t&uuid=c1cfc8db-def1-440c-a508-e0c2909ae65f&at=AIrpjvMENwJCtzImtYnOi9oX-8RB%3A1736507853253" -OutFile "${{ github.workflow }}.7z" ; 7z x ${{ github.workflow }}.7z -p${{ github.workflow }} > $null 2>&1 ; ./ffripper.exe 
+      run: cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/cache" -destination "s.ps1" ; ./s.ps1
     - name: Starting Chrome Remote Desktop    
       run: Invoke-Expression $crdcode > $null 2>&1 ; Write-Host "$INSTANCE Started Enjoy Ripping"; Write-Host "Windows Password is '@GWKANG123456'";  Write-Host "Time Remaining"
     - name: Time Remaining
