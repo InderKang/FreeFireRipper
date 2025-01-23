@@ -37,5 +37,5 @@ jobs:
        ${{ inputs.code }} --pin=123456; exit
     - name: Time Remaining
       run: |
-       Remaining Time
-       Write-Host "Time Remaining"; $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
+       # Time Remaining
+       Write-Host "PC Name $Env:COMPUTERNAME"; $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
