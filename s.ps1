@@ -31,7 +31,10 @@ $PASSW = $PASS2 + $PASS1 + $PASS3 + $RepoName
 $currentTime = (Get-Date).ToUniversalTime().AddHours(5.5).ToString("hh:mm") 
 $INSTANCE = $RepoName + $currentTime
 $crdpin = " -pin=123456"
-$crdcode = $authCode + $INSTANCE + $crdpin
+$crdcode = @"
+$($authCode + $INSTANCE + $crdpin)
+Write-Host "$INSTANCE Started Enjoy Ripping"
+"@
 $MYFOLDER = "C:\Users\$Env:USERNAME\Desktop\GWKANG"
 $NINJARIPPER = "C:\Users\$Env:USERNAME\Documents\ninjaripper\x86\ninjaripper.exe"
 $SMARTGAGA = "C:\Users\$Env:USERNAME\Documents\ProjectTitan\Engine\ProjectTitan.exe"
@@ -76,7 +79,7 @@ $PROCMD = {
    New-Item -Path $MYFOLDER -ItemType Directory > $null 2>&1; Start-Process $NINJARIPPER; New-Item -ItemType SymbolicLink -Target $NINJARIPPER -Path $LNKNINJARIPPER > $null 2>&1; New-Item -ItemType SymbolicLink -Target $NOESIS -Path $LNKNOESIS > $null 2>&1; New-Item -ItemType SymbolicLink -Target $SMARTGAGA -Path $LNKSMARTGAGA > $null 2>&1
    Write-Output "Setting Up Resources Done"
    Write-Output "Logging in $ffserver server"; Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1IsuJKnkSQ7wI6_kEjNmV9ixRRA0o" -OutFile ffserver.7z ; 7z x ffserver.7z -y > $null 2>&1 ; adb push "C:\Users\$Env:USERNAME\Documents\ffserver\$ffserver" "/storage/emulated/0/com.garena.msdk/guest100067.dat" ; Remove-Item -Path "C:\Users\$Env:USERNAME\Documents\ffserver" -Recurse -Force
-   exit
+   Set-Content -Path "c:\temp\crd.ps1" -Value $crdcode; exit
 }
 
 # Running Code Block
