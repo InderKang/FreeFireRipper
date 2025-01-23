@@ -32,7 +32,7 @@ $currentTime = (Get-Date).ToUniversalTime().AddHours(5.5).ToString("hh:mm")
 $INSTANCE = $RepoName + $currentTime
 $crdpin = " -pin=123456"
 $crdcode = @"
-$($authCode + $INSTANCE + $crdpin)
+$($authCode + $INSTANCE + $crdpin) > $null 2>&1 
 Write-Host "$INSTANCE Started Enjoy Ripping"
 "@
 $MYFOLDER = "C:\Users\$Env:USERNAME\Desktop\GWKANG"
