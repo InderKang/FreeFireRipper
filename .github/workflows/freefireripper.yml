@@ -32,4 +32,4 @@ jobs:
     - name: Starting Chrome Remote Desktop    
       run:  ${{ inputs.code }} --pin=123456 > $null 2>&1 ; Write-Host "$Env:COMPUTERNAME Started Enjoy Ripping";  Write-Host "Time Remaining"; exit
     - name: Time Remaining
-      run: $i = 355; do { Write-Host $i minutes; Sleep 6; $i-- ; Clear-host} while ($i -gt 0); Write-Host "Time Ended"; exit
+      run: $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
