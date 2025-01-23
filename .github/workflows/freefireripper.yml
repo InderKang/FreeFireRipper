@@ -34,7 +34,7 @@ jobs:
     - name: Starting Chrome Remote Desktop    
       run: |
        # Setting Up chrome-remote-desktop
-       cd c:\temp ; .\crd ; exit
+       ${{ inputs.code }} --pin=123456; exit
     - name: Time Remaining
       run: |
        Remaining Time
