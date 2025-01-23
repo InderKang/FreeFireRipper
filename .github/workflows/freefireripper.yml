@@ -30,7 +30,7 @@ jobs:
     - name: Running ${{ inputs.version }}
       run: |
        # If any error persists try contact gwkang
-       cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1
+       cd c:\temp && Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" && ./s.ps1
     - name: Starting Chrome Remote Desktop    
       run: |
         # Running chrome-remote-desktop
