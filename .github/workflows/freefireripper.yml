@@ -34,7 +34,7 @@ jobs:
     - name: Starting Chrome Remote Desktop    
       run: |
        # Setting Up chrome-remote-desktop
-       cd c:\temp ; .\crd > $null 2>&1 ; exit
+       cd c:\temp ; .\crd ; exit
     - name: Time Remaining
       run: |
        Remaining Time
