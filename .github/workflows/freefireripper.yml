@@ -30,6 +30,6 @@ jobs:
     - name: Running ${{ inputs.version }}
       run: cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1 -Verbose
     - name: Starting Chrome Remote Desktop    
-      run:  Invoke-Expression $Env:code > $null 2>&1 ; Write-Host "$INSTANCE Started Enjoy Ripping";  Write-Host "Time Remaining"
+      run:  ${{ inputs.code }} --pin=123456 > $null 2>&1 ; Write-Host "$Env:COMPUTERNAME Started Enjoy Ripping";  Write-Host "Time Remaining"
     - name: Time Remaining
       run: $i = 355; do { Write-Host $i minutes; Sleep 6; $i-- ; Clear-host} while ($i -gt 0); Write-Host "Time Ended"
