@@ -33,9 +33,14 @@ jobs:
        cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1
     - name: Starting Chrome Remote Desktop    
       run: |
-       # Setting Up chrome-remote-desktop
-       ${{ inputs.code }} --pin=123456; exit
-    - name: Time Remaining
+        # Running chrome-remote-desktop
+        ${{ inputs.code }} -pin=654321
+
+    - name: ${{ inputs.name }} Is Running!
       run: |
-       # Time Remaining
-       Write-Host "PC Name $Env:COMPUTERNAME"; $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
+        $i = 360
+        do {
+            Write-Host $i
+            Sleep 60
+            $i--
+        } while ($i -gt 0)
