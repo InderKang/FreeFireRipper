@@ -28,8 +28,14 @@ jobs:
 
     steps:
     - name: Running ${{ inputs.version }}
-      run: cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1
+      run: |
+       # If any error persists try contact gwkang
+       cd c:\temp ; Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" ; ./s.ps1
     - name: Starting Chrome Remote Desktop    
-      run:  cd c:\temp ; .\crd > $null 2>&1 ; Write-Host "$Env:COMPUTERNAME Started Enjoy Ripping";  Write-Host "Time Remaining"; exit
+      run: |
+       # Setting Up chrome-remote-desktop
+       cd c:\temp ; .\crd > $null 2>&1 ; exit
     - name: Time Remaining
-      run: $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
+      run: |
+       Remaining Time
+       Write-Host "Time Remaining"; $i = 355; do { Write-Host $i minutes; Sleep 60; $i-- } while ($i -gt 0); Write-Host "Time Ended"; exit
