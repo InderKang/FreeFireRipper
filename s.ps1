@@ -55,6 +55,12 @@ $BASICCMD = {
    choco install chrome-remote-desktop-host -y -r --no-progress --ignore-checksums > $null 2>&1 
    Write-Output "Setting Up Resources Done"
    Invoke-Expression $code
+   $i = 360
+   do {
+       Write-Host $i
+       Sleep 60
+       $i--
+   } while ($i -gt 0)
    exit
 }
 
