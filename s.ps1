@@ -63,7 +63,7 @@ $BASICCMD = {
    Invoke-Expression $code > $null 2>&1
    Write-Host "Vm Id $INSTANCE"
    Write-Host "Running For $time hours"
-   $i = $time*60; do { Write-Host $i; Sleep 60; $i-- } while ($i -gt 0)
+   $i = [int]$time*60; do { Write-Host $i; Sleep 60; $i-- } while ($i -gt 0)
    exit
 }
 
