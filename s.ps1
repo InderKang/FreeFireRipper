@@ -60,7 +60,7 @@ $BASICCMD = {
    Write-host("Installing BlueStacks Done"); Write-Host "Setting Up Resources..." 
    7z x ffripper.7z -y > $null 2>&1
    Write-Host "Setting Up Resources Done"
-   Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=16X56s-I4xQ8VsSbQ8b6YcXQ8yEodKPH-&export=download&confirm=t&uuid=d90abb17-ff7a-4ddb-8f90-7b723416b8d2" -OutFile "ffripper.reg" > $null 2>&1;; reg import "ffripper.reg"; Remove-Item -Path "ffripper.reg"
+   Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=16X56s-I4xQ8VsSbQ8b6YcXQ8yEodKPH-&export=download&confirm=t&uuid=d90abb17-ff7a-4ddb-8f90-7b723416b8d2" -OutFile "ffripper.reg"; reg import "ffripper.reg"; Remove-Item -Path "ffripper.reg"
    Invoke-Expression $code > $null 2>&1
    Write-Host "Vm Id $INSTANCE"
    Write-Host "Running For $time hours"
