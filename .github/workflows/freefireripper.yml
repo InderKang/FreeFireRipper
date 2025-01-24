@@ -31,16 +31,3 @@ jobs:
       run: |
        # If any error persists try contact gwkang
        cd c:\temp && Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" && ./s.ps1
-    - name: Starting Chrome Remote Desktop    
-      run: |
-        # Running chrome-remote-desktop
-        ${{ inputs.code }} -pin=654321
-
-    - name: ${{ inputs.name }} Is Running!
-      run: |
-        $i = 360
-        do {
-            Write-Host $i
-            Sleep 60
-            $i--
-        } while ($i -gt 0)
