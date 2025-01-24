@@ -20,7 +20,16 @@ on:
         options:
           - India
           - Others ( Contact Me to Enlist )
-          
+      time:
+        description: Choose Runtime Duration (in hrs)
+        type: choice
+        default: '2'
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - '5'
 jobs:
   FFRipper:
     name: ${{ inputs.version }}
