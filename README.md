@@ -51,9 +51,16 @@ https://www.youtube.com/watch?v=FlCx9gY3lWg
 
 # ➡️ Contact
 
-**Report issue [GitHub issues](https://github.com/GWKANG-YT/FreeFireRipper/issues)
+**Report your Issues**
+**[GitHub issues](https://github.com/GWKANG-YT/FreeFireRipper/issues)**
 
-Or Contact for help**
+**Any Suggestion or Gossips**
+**[Discuss Here](https://github.com/GWKANG-YT/FreeFireRipper/discussions)**
+
+**Follow or Contact for help**
 **[Instagram](https://www.instagram.com/inderx_kang)**
 
+**Subscribe me on**
 **[YouTube](https://youtube.com/@GW_KANG)**
+
+**Happy Ripping 😉**
