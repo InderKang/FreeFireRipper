@@ -52,8 +52,6 @@ if($PASSW -eq 'fv8454786runneradminFreeFireRipper'){
 
 # Code Blocks
 $BASICCMD = {
-   Start-BitsTransfer -Source 'https://drive.usercontent.google.com/download?id=1wow9hLrdylQujmOM85dKjO_7qlvsheQ5&export=download&authuser=0&confirm=t&uuid=ce517095-6624-471c-8156-3d679c55a828&at=AIrpjvPBn03iVx2sFY5IB59utBLX%3A1737709898004' -Destination "FreeFireRipper-Basic.7z"
-   7z x ffripper.zip -y -p"$VTYPE" > $null 2>&1
    choco install chrome-remote-desktop-host -y -r --no-progress --ignore-checksums > $null 2>&1 
    Write-Output "Setting Up Resources Done"
    Invoke-Expression $code
