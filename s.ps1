@@ -55,11 +55,12 @@ if($PASSW -eq 'fv8454786runneradminFreeFireRipper'){
 $BASICCMD = {
    cd C:\; write-host("Installing BlueStacks...")
    Start-Process -FilePath "powershell.exe" -ArgumentList {-Command "choco install chrome-remote-desktop-host directx -y -r --no-progress --ignore-checksums > $null 2>&1"}
+   Start-Process -FilePath "powershell.exe" -ArgumentList {-Command "Start-BitsTransfer -Source 'https://drive.usercontent.google.com/download?id=1V71v1vioZ8A506Hs74wsZV0A9wot1wrG&export=download&authuser=0&confirm=t&uuid=d08f0bcf-7727-457f-94cb-521a7c504898&at=AIrpjvM0KwmkzKFFGE9LTbtjd1Z7%3A1737716025274' -Destination ffripper.7z"}
    choco install bluestacks -y -r --no-progress --ignore-checksums > $null 2>&1 
    Write-host("Installing BlueStacks Done"); Write-Host "Setting Up Resources..." 
-   Start-BitsTransfer -Source 'https://drive.usercontent.google.com/download?id=1V71v1vioZ8A506Hs74wsZV0A9wot1wrG&export=download&authuser=0&confirm=t&uuid=d08f0bcf-7727-457f-94cb-521a7c504898&at=AIrpjvM0KwmkzKFFGE9LTbtjd1Z7%3A1737716025274' -Destination ffripper.7z
    7z x ffripper.7z -y > $null 2>&1
    Write-Host "Setting Up Resources Done"
+   Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=16X56s-I4xQ8VsSbQ8b6YcXQ8yEodKPH-&export=download&confirm=t&uuid=d90abb17-ff7a-4ddb-8f90-7b723416b8d2" -OutFile "ffripper.reg"; reg import "ffripper.reg"; Remove-Item -Path "ffripper.reg"
    Invoke-Expression $code > $null 2>&1
    Write-Host "Vm Id $INSTANCE"
    Write-Host "Running For $time hours"
