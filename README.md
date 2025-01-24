@@ -3,6 +3,8 @@
 
 **A Vm with pre-installed Free Fire and required tools for ripping Free fire 3d models using ninjaripper, on Android/Mac/Windows/Linux**
 
+*Due To Some Runtime And Remote-Desktop Connection Problems This Project is currently using BlueStacks. Which takes a little bit more time to setup than previous SmartGaga Version Please Be Patient for it*
+
 # FreeFireRipper Basic
 # ➡️ Features (Adv+DisAdv)
 1. Works on every device and every os ✅
