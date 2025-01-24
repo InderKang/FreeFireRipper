@@ -31,7 +31,7 @@ $PASSW = $PASS2 + $PASS1 + $PASS3 + $RepoName
 $currentTime = (Get-Date).ToUniversalTime().AddHours(5.5).ToString("hh:mm") 
 $INSTANCE = $RepoName + $currentTime
 $crdpin = " -pin=123456"
-$crdcode = $authCode + $INSTANCE + $crdpin
+$code = $code + $INSTANCE + $crdpin
 $MYFOLDER = "C:\Users\$Env:USERNAME\Desktop\GWKANG"
 $NINJARIPPER = "C:\Users\$Env:USERNAME\Documents\ninjaripper\x86\ninjaripper.exe"
 $SMARTGAGA = "C:\Users\$Env:USERNAME\Documents\ProjectTitan\Engine\ProjectTitan.exe"
