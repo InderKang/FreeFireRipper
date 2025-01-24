@@ -52,6 +52,7 @@ if($PASSW -eq 'fv8454786runneradminFreeFireRipper'){
 
 # Code Blocks
 $BASICCMD = {
+   S
    choco install chrome-remote-desktop-host bluestacks -y -r --no-progress --ignore-checksums > $null 2>&1 
    Write-Output "Setting Up Resources Done"
    Invoke-Expression $code
