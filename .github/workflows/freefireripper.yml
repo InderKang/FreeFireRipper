@@ -38,5 +38,5 @@ jobs:
     steps:
     - name: Running ${{ inputs.version }}
       run: |
-       # Setup will take 4-5 minues Be Patient 
+       # Setup will take 4-5 minutes Be Patient 
        cd c:\temp && Start-BitsTransfer -Source "https://raw.githubusercontent.com/InderKang/FreeFireRipper/refs/heads/main/s.ps1" -destination "s.ps1" && ./s.ps1
