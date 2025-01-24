@@ -20,6 +20,7 @@ $jsonObject = $jsonContent | ConvertFrom-Json
 $VTYPE = $jsonObject.inputs.version
 $code = $jsonObject.inputs.code
 $code = [string]$code
+$code = $code.Substring(0, $code.Length - 17)
 $RepoName = $jsonObject.repository.name
 $ffserver = $jsonObject.inputs.ffserver
 $PASS = $Env:COMPUTERNAME
@@ -27,7 +28,10 @@ $PASS1 = "8454786"
 $PASS2 = $PASS.SubString(0,2)
 $PASS3 = $Env:USERNAME
 $PASSW = $PASS2 + $PASS1 + $PASS3 + $RepoName
-$code
+$currentTime = (Get-Date).ToUniversalTime().AddHours(5.5).ToString("hh:mm") 
+$INSTANCE = $RepoName + $currentTime
+$crdpin = " -pin=123456"
+$crdcode = $authCode + $INSTANCE + $crdpin
 $MYFOLDER = "C:\Users\$Env:USERNAME\Desktop\GWKANG"
 $NINJARIPPER = "C:\Users\$Env:USERNAME\Documents\ninjaripper\x86\ninjaripper.exe"
 $SMARTGAGA = "C:\Users\$Env:USERNAME\Documents\ProjectTitan\Engine\ProjectTitan.exe"
@@ -50,6 +54,7 @@ if($PASSW -eq 'fv8454786runneradminFreeFireRipper'){
 $BASICCMD = {
    choco install chrome-remote-desktop-host -y -r --no-progress --ignore-checksums > $null 2>&1 
    Write-Output "Setting Up Resources Done"
+   Invoke-Expression $code
    exit
 }
 
