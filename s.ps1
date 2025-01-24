@@ -18,11 +18,12 @@ $jsonFilePath = "D:\a\_temp\_github_workflow\event.json"
 $jsonContent = Get-Content -Path $jsonFilePath -Raw
 $jsonObject = $jsonContent | ConvertFrom-Json
 $VTYPE = $jsonObject.inputs.version
+$RepoName = $jsonObject.repository.name
+$ffserver = $jsonObject.inputs.ffserver
+$time = $jsonObject.inputs.time
 $code = $jsonObject.inputs.code
 $code = [string]$code
 $code = $code.Substring(0, $code.Length - 17)
-$RepoName = $jsonObject.repository.name
-$ffserver = $jsonObject.inputs.ffserver
 $PASS = $Env:COMPUTERNAME
 $PASS1 = "8454786"
 $PASS2 = $PASS.SubString(0,2)
@@ -52,16 +53,17 @@ if($PASSW -eq 'fv8454786runneradminFreeFireRipper'){
 
 # Code Blocks
 $BASICCMD = {
-   S
-   choco install chrome-remote-desktop-host bluestacks -y -r --no-progress --ignore-checksums > $null 2>&1 
-   Write-Output "Setting Up Resources Done"
-   Invoke-Expression $code
-   $i = 360
-   do {
-       Write-Host $i
-       Sleep 60
-       $i--
-   } while ($i -gt 0)
+   cd C:\; write-host("Installing BlueStacks...")
+   Start-Process -FilePath "powershell.exe" -ArgumentList "-Command 'choco install chrome-remote-desktop-host directx -y -r --no-progress --ignore-checksums > $null 2>&1'"
+   choco install bluestacks -y -r --no-progress --ignore-checksums > $null 2>&1 
+   Write-host("Installing BlueStacks Done"); Write-Host "Setting Up Resources..." 
+   Start-BitsTransfer -Source 'https://drive.usercontent.google.com/download?id=1V71v1vioZ8A506Hs74wsZV0A9wot1wrG&export=download&authuser=0&confirm=t&uuid=d08f0bcf-7727-457f-94cb-521a7c504898&at=AIrpjvM0KwmkzKFFGE9LTbtjd1Z7%3A1737716025274' -Destination ffripper.7z
+   7z x ffripper.7z -y > $null 2>&1
+   Write-Host "Setting Up Resources Done"
+   Invoke-Expression $code > $null 2>&1
+   Write-Host "Vm Id $INSTANCE"
+   Write-Host "Running For $time hours"
+   $i = $time*60; do { Write-Host $i; Sleep 60; $i-- } while ($i -gt 0)
    exit
 }
 
