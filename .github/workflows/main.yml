@@ -33,7 +33,7 @@ on:
 jobs:
   FFRipper:
     name: ${{ inputs.version }}
-    runs-on: windows-latest
+    runs-on: windows-2025
 
     steps:
     - name: Running ${{ inputs.version }}
