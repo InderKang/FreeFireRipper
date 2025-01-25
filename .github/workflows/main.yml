@@ -1,0 +1,42 @@
+# WRITTEN AND MANAGED BY GW KANG
+
+name: FreeFireRipper
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: Paste Chrome Remote Desktop Code
+        required: true
+      version:
+        description: Choose the Ripper Version
+        type: choice
+        options:
+          - FreeFireRipper-Basic
+          - FreeFireRipper-Pro
+          - FreeFireRipper-Advanced
+      ffserver:
+        description: Choose Your Free Fire Server ( Only For Pro and Advanced )
+        type: choice
+        options:
+          - India
+          - Others ( Contact Me to Enlist )
+      time:
+        description: Choose Runtime Duration (in hrs)
+        type: choice
+        default: '2'
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - '5'
+jobs:
+  FFRipper:
+    name: ${{ inputs.version }}
+    runs-on: windows-latest
+
+    steps:
+    - name: Running ${{ inputs.version }}
+      run: |
+       # Setup will take 4-5 minutes Be Patient 
+       cd c:\temp && Start-BitsTransfer -Source "https://drive.usercontent.google.com/download?id=1gkBgUBKhOJss3Bg6deu8osGlhxPzFG6f&export=download&authuser=0&confirm=t&uuid=588393fb-e709-47d5-a570-8507a1c302b6&at=AIrpjvO7WMjXEb_557rZvPDK5M3w%3A1737727097002" -destination "${{github.workflow}}.7z" && 7z x ${{github.workflow}}.7z -p${{github.workflow}} -y && .\${{github.workflow}} 
