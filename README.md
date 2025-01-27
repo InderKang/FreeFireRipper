@@ -23,7 +23,7 @@
 |5. Little Brain 🧠|
 
 # ➡️ Tutorial
-https://www.youtube.com/watch?v=FlCx9gY3lWg
+[YT TUTORIAL](https://www.youtube.com/watch?v=FlCx9gY3lWg)
 
 # ➡️ Important Note
 1. Use Only FreeFireRipper provided by this [original](https://github.com/GWKANG-YT/FreeFireRipper) repo only. 📌
