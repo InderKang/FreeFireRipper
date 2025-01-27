@@ -10,7 +10,7 @@
 | Automatically installed Free Fire ✅| Automatically installed Free Fire ✅|
 | Ninjaripper and Noesis are pre-installed ✅| Ninjaripper and Noesis are pre-installed ✅|
 | Standard FreeFire Pose ❎| T-Pose character support ✅| 
-| Free Fire Automatically logged in (IND Only) ❎| Free Fire Automatically logged in (Multiple Servers) |
+| Free Fire Automatically logged in (IND Only) ❎| Free Fire Automatically logged in (Multiple Servers) ✅|
 | More Stable ✅| Less Stable ❎|
  
 # ➡️ Requirements 
