@@ -48,3 +48,5 @@
 **[YouTube](https://youtube.com/@GW_KANG)**
 
 **Happy Ripping 😉**
+
+*This Project is made for Educational Purposes only. Using this Project, users can make a deep dive in game rendering pipelines and have knowledge of it. This Project never aims to void legal considerations of Game and GitHub policies. Use at your own risks (excessive and improper use may lead to ban)*
