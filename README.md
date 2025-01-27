@@ -5,13 +5,13 @@
 
 *Due To Some Runtime And Remote-Desktop Connection Problems This Project is currently using BlueStacks. Which takes a little bit more time to setup than previous SmartGaga Version Please Be Patient for it*
 
-| FreeFireRipper Basic | FreeFireRipper Pro (Coming Soon) |
+|🗡 FreeFireRipper Basic |⚔ FreeFireRipper Pro (Coming Soon) |
 | ---------------------| ---------------------------------|
-| Automatically installed Free Fire | Automatically installed Free Fire|
-| Ninjaripper and Noesis are pre-installed | Ninjaripper and Noesis are pre-installed |
-| Standard FreeFire Pose | T-Pose character support | 
-| Free Fire Automatically logged in (IND Only) | Free Fire Automatically logged in (Multiple Servers) |
-| More Stable | Less Stable |
+| Automatically installed Free Fire ✅| Automatically installed Free Fire ✅|
+| Ninjaripper and Noesis are pre-installed ✅| Ninjaripper and Noesis are pre-installed ✅|
+| Standard FreeFire Pose ❎| T-Pose character support ✅| 
+| Free Fire Automatically logged in (IND Only) ❎| Free Fire Automatically logged in (Multiple Servers) |
+| More Stable ✅| Less Stable ❎|
  
 # ➡️ Requirements 
 1. GitHub Account 🔑
