@@ -26,10 +26,12 @@
 https://www.youtube.com/watch?v=FlCx9gY3lWg
 
 # ➡️ Important Note
-1. Use of main free fire account is not recommended, I'm not responsible if you use it or get banned 🚫 
-1. This repository is for personal use only only don't use it for illegal or inappropriate activities or your account will be banned. ⚠️
-2. This repository is written and managed by me so you have no right to use this repo for commercial purposes. 👿
-3. Contact me if you want to upload this repo's video on YT 📮
+1. Use Only FreeFireRipper provided by this [original](https://github.com/GWKANG-YT/FreeFireRipper) repo only. 📌
+2. Use of main free fire account is not recommended, I'm not responsible if you use it or get banned. 🚫
+3. Keep your repo synced (updated) using 'Sync Fork' option in code window. ⏳
+4. This repository is for personal use only only don't use it for illegal or inappropriate activities or your account will be banned. ⚠️
+5. This repository is written and managed by me so you have no right to use this repo for commercial purposes. 👿
+6. Contact me if you want to upload this repo's video on YT. 📮
 
 # ➡️ Contact
 
