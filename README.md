@@ -21,7 +21,6 @@ Due to certain runtime and remote desktop connection challenges, this project no
 ## 🎥 Tutorial
 **Watch the tutorial on YouTube:** [YT TUTORIAL](https://www.youtube.com/watch?v=FlCx9gY3lWg)
 
-For T-pose 3D models, contact me on Instagram.
 
 ## 💰 Custom 3D Model Pricing
 If you need T-pose models, you can purchase them from my personal project:
