@@ -21,6 +21,7 @@ Due to certain runtime and remote desktop connection challenges, this project no
 ## 🎥 Tutorial
 **Watch the tutorial on YouTube:** [YT TUTORIAL](https://www.youtube.com/watch?v=FlCx9gY3lWg)
 
+---
 
 ## 💰 Custom 3D Model Pricing
 If you need T-pose models, you can purchase them from my personal project:
@@ -34,7 +35,7 @@ If you need T-pose models, you can purchase them from my personal project:
 | 3D Render 2K (Model not included) | ₹30 | User provides the 3D model |
 | 3D Render 4K (With Model Extraction) | ₹50 | Model extraction + Rigging + Render |
 | Full Pack | ₹80 | T-pose + Rigged 3D Model (FBX + OBJ + BLEND) + One 4K Render |
-
+---
 ## ⚠️ Important Notes
 1. **Use only the official Free Fire Ripper** from this [GitHub repository](https://github.com/GWKANG-YT/FreeFireRipper). 📌
 2. **Avoid using your main Free Fire account** to prevent the risk of bans. 🚫
