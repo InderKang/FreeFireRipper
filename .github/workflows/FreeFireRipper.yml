@@ -8,7 +8,7 @@ on:
         description: Paste Chrome Remote Desktop Code
         required: true
       ffserver:
-        description: Choose Your Free Fire Server ( Only For Pro and Advanced )
+        description: Choose Your Free Fire Server ( Coming Soon )
         type: choice
         options:
           - India
