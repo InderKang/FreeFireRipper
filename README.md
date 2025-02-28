@@ -5,15 +5,15 @@
 
 *Due To Some Runtime And Remote-Desktop Connection Problems This Project is currently using BlueStacks. Which takes a little bit more time to setup than previous SmartGaga Version Please Be Patient for it*
 
-|🗡 *FreeFireRipper Basic* |⚔ *FreeFireRipper Pro (Coming Soon)* |
-| ---------------------| ---------------------------------|
-| Automatically installed Free Fire 📈| Automatically installed Free Fire 📈|
-| Ninjaripper and Noesis are pre-installed 📈| Ninjaripper and Noesis are pre-installed 📈|
-| Standard FreeFire Pose 📉| T-Pose character support 📈| 
-| Free Fire Automatically logged in (IND Only) 📉| Free Fire Automatically logged in (Multiple Servers) 📈|
-| More Stable 📈| Less Stable 📉|
-| Free 😃| Paid 💰|
- 
+ |*FreeFireRipper Features*|
+ |------------|
+ |Automatically installed Free Fire|
+ |Ninjaripper and Noesis are pre-installed|
+ |Standard FreeFire Pose|
+ |Free Fire Automatically logged in (Multiple Servers)|
+ |More Stable Than Previous One|
+ |100% Free 😃|
+
 |*Requirements*|
 |------------|
 |1. GitHub Account 🔑|
@@ -24,6 +24,19 @@
 
 # ➡️ Tutorial
 **[YT TUTORIAL](https://www.youtube.com/watch?v=FlCx9gY3lWg)**
+
+ *For Tpose 3d Models Contact Me On Instagram*
+ 
+ *The Tpose Models Ripper is My Personal Project, So if You Want Your Tpose Models Here is the Price List*
+  *Price List For FreeFire Custom 3d Models*
+| *Option* | *Price* |
+| ---------------------| ---------------------------------|
+|Standard Pose 3d Model          | 20 Rs |
+|Standard Pose 3d Model (Rigged) | 25 Rs |
+|Tpose 3d Model | 30 Rs |
+|Tpose 3d Model (Rigged) | 35 Rs |
+|3d Render 2K (User Must Provide 3d Model) | 30 Rs |
+|3d Render 4k (With 3d Model Extraction) | 50 Rs |
 
 # ➡️ Important Note
 1. Use Only FreeFireRipper provided by this [original](https://github.com/GWKANG-YT/FreeFireRipper) repo only. 📌
