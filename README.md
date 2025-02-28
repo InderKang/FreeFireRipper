@@ -5,22 +5,15 @@
 
 *Due To Some Runtime And Remote-Desktop Connection Problems This Project is currently using BlueStacks. Which takes a little bit more time to setup than previous SmartGaga Version Please Be Patient for it*
 
- |*FreeFireRipper Features*|
- |------------|
- |Automatically installed Free Fire|
- |Ninjaripper and Noesis are pre-installed|
- |Standard FreeFire Pose|
- |Free Fire Automatically logged in (Multiple Servers)|
- |More Stable Than Previous One|
+ |*FreeFireRipper Features*|*Requirements*|
+ |------------|------------|
+ |Automatically installed Free Fire|1. GitHub Account 🔑|
+ |Ninjaripper and Noesis are pre-installed|2. G-mail Account 📧|
+ |Standard FreeFire Pose|3. Any Browser on any device 🌐|
+ |Free Fire Automatically logged in (Multiple Servers)|4. Internet 🛜|
+ |More Stable Than Previous One|5. Little Brain 🧠|
  |100% Free 😃|
 
-|*Requirements*|
-|------------|
-|1. GitHub Account 🔑|
-|2. G-mail Account 📧|
-|3. Any Browser on any device 🌐|
-|4. Internet 🛜|
-|5. Little Brain 🧠|
 
 # ➡️ Tutorial
 **[YT TUTORIAL](https://www.youtube.com/watch?v=FlCx9gY3lWg)**
@@ -29,14 +22,16 @@
  
  *The Tpose Models Ripper is My Personal Project, So if You Want Your Tpose Models Here is the Price List*
   *Price List For FreeFire Custom 3d Models*
-| *Option* | *Price* |
-| ---------------------| ---------------------------------|
-|Standard Pose 3d Model          | 20 Rs |
-|Standard Pose 3d Model (Rigged) | 25 Rs |
-|Tpose 3d Model | 30 Rs |
-|Tpose 3d Model (Rigged) | 35 Rs |
-|3d Render 2K (User Must Provide 3d Model) | 30 Rs |
-|3d Render 4k (With 3d Model Extraction) | 50 Rs |
+| *Option* | *Price* |*Details*
+| ---------------------| --------------------|-------------|
+|Standard Pose 3d Model| 20 Rs |Default InGame Pose + Non-Rigged OBJ|
+|Standard Pose 3d Model (Rigged) | 25 Rs |Default InGame Pose + Rigged FBX|
+|Tpose 3d Model | 30 Rs |TPose/APose + Non-Rigged OBJ|
+|Tpose 3d Model (Rigged) | 35 Rs |TPose/APose + Rigged FBX|
+|3d Render 2K (Excluding 3d Model Extraction) | 30 Rs |User Will Provide Me 3d Model|
+|3d Render 4k (With 3d Model Extraction) | 50 Rs |I Will Do Model Extraction + Rigging + Render|
+|full Pack | 80 Rs |TPose + Rigged 3d Model (FBX+OBJ+BLEND) + One 4k Render|
+
 
 # ➡️ Important Note
 1. Use Only FreeFireRipper provided by this [original](https://github.com/GWKANG-YT/FreeFireRipper) repo only. 📌
